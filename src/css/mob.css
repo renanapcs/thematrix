@@ -21,6 +21,10 @@
         text-align: center;
 
     }
+    .descricao.ativa{
+        font-size: 15pt;
+        width: 80%;
+    }
 }
 @media ( max-width: 420px) {
     .informacoes .logo{
