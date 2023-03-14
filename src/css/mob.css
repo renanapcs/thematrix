@@ -3,14 +3,17 @@
         width: auto;
     }
     .informacoes.descricao.ativa{
-        width: auto;
+        width: 90%;
+        height: 60%;
         font-size: 15px;
         padding: auto;
-        text-align: center;
-        margin: 20px;
+     
     }
     
     body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
         padding: 0 20px;
 
     }
@@ -26,7 +29,7 @@
         flex-direction: column;
         align-items: center;
     }
-    .informacoes .discricao{
+    .informacoes .descricao.ativa{
         width: 60%;
         text-align: center;
 
@@ -39,6 +42,10 @@
 @media ( max-width: 420px) {
     .informacoes .logo{
         max-width: 380px;
+    }
+    .informacoes.descricao.ativa{
+        width: 100%;
+        height: 100%;
     }
     .menu-lateral{
         position: static;
